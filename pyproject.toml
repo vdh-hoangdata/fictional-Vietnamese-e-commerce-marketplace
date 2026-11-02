@@ -1,0 +1,11 @@
+[project]
+name = "vietcommerce-dataset"
+version = "1.0.0"
+description = "Deterministic marketplace simulation and intentionally imperfect sources"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-p no:cacheprovider"

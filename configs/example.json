@@ -1,0 +1,14 @@
+{
+  "return_rate": 0.055,
+  "cancellation_rate": 0.045,
+  "payment_failure_rate": 0.085,
+  "anonymous_sessions_per_order": 0.55,
+  "chunk_rows": 100000,
+  "incidents": {
+    "payment_outage": ["2024-08-12", "2024-08-16"],
+    "carrier_disruption": ["2025-07-07", "2025-07-20"],
+    "inventory_shortage": ["2025-03-01", "2025-03-14"],
+    "margin_campaign": ["2025-11-01", "2025-11-15"],
+    "quality_issue": ["2025-05-01", "2025-05-31"]
+  }
+}

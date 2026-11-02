@@ -1,0 +1,1 @@
+"""Validated generation parameters."""

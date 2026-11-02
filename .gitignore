@@ -1,0 +1,22 @@
+data/
+__pycache__/
+.pytest_cache/
+*.pyc
+.venv/
+*.sqlite
+.coverage
+.test-tmp/
+.test-run-*/
+pytest-cache-files-*/
+
+# Local credentials and personal editor/agent settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.aws/
+.codex/
+.vscode/
+.idea/
+prompt.md
